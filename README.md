@@ -1,2 +1,2 @@
 # Medium-Clone
-a simple clone medium
+a simple medium clone with bootstrap4 & jQuery.
