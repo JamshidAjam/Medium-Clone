@@ -46,18 +46,23 @@ header {
 	color: #088a5a;
 }
 
-nav {
+nav  {
 	margin-top: -30px;
+	border: 1px solid #ccc;
+}
+nav ul {
 	margin-left: 100px;
 }
 
 .fixed {
     position: fixed;
-    top: 10px;
+    margin-left: 0;
+    padding-left: 100px;
+    top: 0px;
 	z-index: 1000;
 	background-color: #fff;
 	border-bottom: 1px solid #ccc;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 	width: 100% !important;
 }
 

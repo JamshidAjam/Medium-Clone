@@ -17,10 +17,10 @@
 
 
 	$(window).bind('scroll', function () {
-	    if ($(window).scrollTop() > 80) {
-	        $('.menu').addClass('fixed');
+	    if ($(window).scrollTop() > 90) {
+	        $('.nav').addClass('fixed');
 	    } else {
-	        $('.menu').removeClass('fixed');
+	        $('.nav').removeClass('fixed');
 	    }
 	});
 
