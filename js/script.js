@@ -15,4 +15,14 @@
 		$('#search-icon').one('click', hide);
 		$('#search-box').hide();
 
+
+	$(window).bind('scroll', function () {
+	    if ($(window).scrollTop() > 80) {
+	        $('.menu').addClass('fixed');
+	    } else {
+	        $('.menu').removeClass('fixed');
+	    }
+	});
+
+
 });
