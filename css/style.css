@@ -47,8 +47,7 @@ header {
 }
 
 nav  {
-	margin-top: -30px;
-	border: 1px solid #ccc;
+	margin-top: -35px;
 }
 nav ul {
 	margin-left: 100px;
@@ -62,8 +61,7 @@ nav ul {
 	z-index: 1000;
 	background-color: #fff;
 	border-bottom: 1px solid #ccc;
-	/*overflow-x: hidden;*/
-	width: 100% !important;
+	width: 100%;
 }
 
 #control-menu {
