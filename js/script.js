@@ -13,7 +13,6 @@
 		$('#search-icon').one('click', hide);
 	}
 		$('#search-icon').one('click', hide);
-
-	$('#search-box').hide();
+		$('#search-box').hide();
 
 });
