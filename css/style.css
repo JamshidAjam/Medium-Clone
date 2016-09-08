@@ -29,6 +29,13 @@ header {
 #write-story a:hover, #search a:hover {
 	color: #777;
 }
+#search {
+	float: left;
+}
+#search-box {
+	float: left;
+	border: none;
+}
 #signin a {
 	text-decoration: none;
 	color: #02b875;
