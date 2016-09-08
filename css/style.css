@@ -211,4 +211,20 @@ nav {
 	text-decoration: none;
 	color: #888;
 }
+#sidebar-footer {
+	margin-top: 50px;
 
+}
+#footer-border {
+	border-top: 1px solid #ccc;
+	width: 50%;
+}
+#sidebar-footer-links {
+	margin-top: 10px;
+	font-size: 11px;
+}
+#sidebar-footer-links a {
+	/*text-decoration: none;*/
+	padding-right: 10px;
+	color: #777;
+}
