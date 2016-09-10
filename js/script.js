@@ -43,16 +43,14 @@
 	});
 */
 
-var linkContainer = $('#sidebar');
-    linkContainerOffset = linkContainer.offset().top;
-    stickyClass = 'sticky-links';
+   var linkContainerOffset = $('#sidebar').offset().top;
 
   $(window).on('scroll', function(){
     var pageOffset = $('body').scrollTop();
-    if (pageOffset > linkContainerOffset-50) {
-      linkContainer.addClass(stickyClass);
+    if (pageOffset > linkContainerOffset+171) {
+      $('#side').addClass('.fixed-sidebar');
     } else {
-      linkContainer.removeClass(stickyClass);
+      $('#side').removeClass('.fixed-sidebar');
     }
   });
 

@@ -187,11 +187,12 @@ nav ul {
 /* ======== sidebar =============*/
 #sidebar {
 	margin-top: 40px;
-	float: right;
+	float: left;
 }
 .fixed-sidebar {
 	position: fixed;
 	bottom: 0;
+	float: left;
 }
 .block {
 	margin-bottom: 20px;
