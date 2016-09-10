@@ -86,6 +86,9 @@ nav ul {
 #content {
 	margin-top: 12px;
 }
+.main-scroll {
+	margin-top: 50px;
+}
 /*============ main ========*/
 #top-main-text {
 	margin-top: 20px;
@@ -184,6 +187,11 @@ nav ul {
 /* ======== sidebar =============*/
 #sidebar {
 	margin-top: 40px;
+	float: right;
+}
+.fixed-sidebar {
+	position: fixed;
+	bottom: 0;
 }
 .block {
 	margin-bottom: 20px;
