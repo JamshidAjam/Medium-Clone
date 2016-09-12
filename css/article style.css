@@ -97,10 +97,21 @@ nav ul li a:hover {
 	color: #bbb;
 	font-size: 13px;
 }
-
-
-
-
+/*============== article section ============*/
+.article-section img {
+	width: 800px;
+	height: 532px;
+    display: block;
+    margin: 0 auto;
+}
+.article-section figcaption {
+	text-align: center;
+	color: #777;
+	font-size: 13px;
+}
+.article-section p {
+	font-size: 20px;
+}
 
 
 	/*border: 1px solid #000;*/
