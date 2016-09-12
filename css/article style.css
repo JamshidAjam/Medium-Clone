@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+/*========= HEADER =================*/
+#logo {
+	width: 32px;
+	height: 26px;
+	margin-top: 25px;
+}
+#middle-header {
+	margin-top: -25px;
+	margin-left: -100px;
+	font-size: 14px;
+	letter-spacing: 1px
+}
+#middle-header img {
+	border-radius: 3px;
+}
+#middle-header a {
+	text-decoration: none;
+	color: #777;
+}
+#publishedin {
+	color: #bbb;
+}
+#publishedin {
+	margin: -35px 0 0 150px;
+}
+#personal-growth {
+	margin: -5px 0 0 165px;
+}
+#header-right {
+	margin-top: -30px;
+}
+#follow {
+	text-decoration: none;
+	color: #bbb;
+	padding: 0 2px;
+}
+#follow:hover {
+	color: #777;
+}
+#signin {
+	text-decoration: none;
+	color: #02b870;
+	padding: 0 2px;
+}
+#signin:hover {
+	color: #088a5a;
+}
+#search-icon {
+	color: #777;
+	padding: 0 2px;
+}
+#search-box {
+	display: none;
+	border: none;
+	padding: 0 2px;
+}
+.clear {
+	clear: both;
+}
+.nav {
+	margin-top: 30px;
+}
+nav ul li a {
+	color: #aaa;
+}
+nav ul li a:hover {
+	color: #777;
+}
+#header {
+	border-bottom: 1px solid #eee;
+	padding-bottom: 10px;
+}
