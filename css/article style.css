@@ -74,3 +74,33 @@ nav ul li a:hover {
 	border-bottom: 1px solid #eee;
 	padding-bottom: 10px;
 }
+/*============ author ============*/
+#author {
+	margin-top: 30px;
+}
+#author a img {
+	border-radius: 50%;
+	float: left;
+}
+#author-info a, #author-info p {
+	margin-left: 10px;
+}
+#author-name {
+	text-decoration: none;
+	color: #666;
+}
+#author-name:hover {
+	color: #333;
+}
+#author p {
+	float: left;
+	color: #bbb;
+	font-size: 13px;
+}
+
+
+
+
+
+
+	/*border: 1px solid #000;*/
