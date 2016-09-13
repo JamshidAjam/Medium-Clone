@@ -73,11 +73,16 @@ nav ul li a:hover {
 }
 .top-head {
 	background: #fff;
-	position: fixed;
 	width: 100%;
 	z-index: 1;
-	/*left: 0%;*/
-	/*margin-left: -200px;*/
+	position: fixed;
+    top: 0;
+	right: 0px;
+	left: 0px;
+	transition: transform 1s cubic-bezier(0.86, 0, 0.07, 1);
+}
+.hide-top-head {
+  transform: translateY(-100%);
 }
 #article-header {
 	border-bottom: 1px solid #eee;
@@ -86,12 +91,12 @@ nav ul li a:hover {
 	padding-bottom: 10px;
 }
 .topheadfix {
-	margin: 0 auto;
-	width: 80%;
+	display: none;
+	/*top: -119px;*/
 }
 /*============ author ============*/
 #author {
-	margin-top: 130px;
+	margin-top: 150px;
 }
 #author a img {
 	border-radius: 50%;
