@@ -125,6 +125,9 @@ footer a:hover {
 	float: right;
 	padding-top: 5px;
 }
+.hide-footer {
+  transform: translateY(100%);
+}
 /*============ author ============*/
 #author {
 	margin-top: 150px;

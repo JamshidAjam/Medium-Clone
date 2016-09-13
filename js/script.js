@@ -43,7 +43,10 @@
 	$(window).on('scroll', function(){
 		var scrollTop = $(window).scrollTop();
 		$('.top-head').toggleClass('hide-top-head', scrollTop > prev);
+		$('footer').toggleClass('hide-footer', scrollTop > prev);
 		prev = scrollTop;
 	});
+
+/* footer */
 
 });
