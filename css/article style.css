@@ -71,13 +71,27 @@ nav ul li a {
 nav ul li a:hover {
 	color: #777;
 }
-#header {
+.top-head {
+	background: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+	/*left: 0%;*/
+	/*margin-left: -200px;*/
+}
+#article-header {
 	border-bottom: 1px solid #eee;
+	width: 80%;
+	margin: 0 auto;
 	padding-bottom: 10px;
+}
+.topheadfix {
+	margin: 0 auto;
+	width: 80%;
 }
 /*============ author ============*/
 #author {
-	margin-top: 30px;
+	margin-top: 130px;
 }
 #author a img {
 	border-radius: 50%;
