@@ -38,7 +38,7 @@
 		});
 	});
 
-/* article */
+/* article & footer */
 	var prev = 0;
 	$(window).on('scroll', function(){
 		var scrollTop = $(window).scrollTop();
@@ -47,6 +47,5 @@
 		prev = scrollTop;
 	});
 
-/* footer */
 
 });

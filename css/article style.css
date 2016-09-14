@@ -156,6 +156,83 @@ footer a:hover {
 #author-name:hover {
 	color: #333;
 }
+/*
+.tooltip {
+    position: relative;
+    text-align: center;
+    padding-left: 100px;
+    width: 100px;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    top: 20px;
+    background-color: #fff;
+    color: #444;
+    text-align: left;
+    border-radius: 6px;
+    border: 1px solid #bbb;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    margin-left: -60px;
+    /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+/*    opacity: 1;
+    visibility: hidden;
+    transition: visibility 0s linear 2s;
+    }
+    .tooltip:hover .tooltiptext {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    .tooltiptext img {
+        width: 30%;
+        float: right;
+        border-radius: 50%;
+    }
+    #hover-author-name {
+        text-decoration: none;
+        font-weight: bold;
+        color: #333;
+        margin: 10px 5px 5px  15px;
+        display: inline-block;
+    }
+    #hover-author-text {
+        padding-left: 15px;
+        font-size: 13px;
+        color: #999;
+    }
+    #hover-author-text a {
+        text-decoration: none;
+        color: #999;
+    }
+    #hover-bottom-line {
+        border-bottom: 1px solid  #ccc;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    #hover-bottom-line-text {
+        font-size: 14px;
+        padding-bottom: 15px;
+        color: #999;
+        padding-left: 15px;
+        padding-top: 15px;
+    }
+    #hover-follow-button {
+        margin-left: 10px;
+        background-color: white;
+        color: green;
+        border: 1px solid #4CAF50;
+        border-radius: 30px;
+        transition-duration: 0.4s;
+        padding: 5px 10px;
+        font-size: 13px;
+        text-decoration: none;
+    }*/
+
 #author p {
 	float: left;
 	color: #bbb;
@@ -181,6 +258,22 @@ footer a:hover {
 .article-section p {
 	font-size: 22px;
 }
+.tag {
+	background-color: #f3f3f3;
+	color: #777;
+	padding: 10px;
+	margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
 
 
 	/*border: 1px solid #000;*/
