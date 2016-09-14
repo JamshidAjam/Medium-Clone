@@ -264,7 +264,10 @@ footer a:hover {
 	padding: 10px;
 	margin-right: 5px;
 }
-
+#tags a:hover {
+	background-color: #e6e6e6;
+	color: #777;
+}
 
 
 
