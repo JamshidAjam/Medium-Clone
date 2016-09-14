@@ -268,10 +268,23 @@ footer a:hover {
 	background-color: #e6e6e6;
 	color: #777;
 }
-
-
-
-
+#article-footer-icons {
+	margin-top: 20px;
+	text-decoration: none;
+	color: #777;
+}
+#article-footer-icons i {
+	padding: 0 15px 0 0;
+	text-decoration: none;
+	color: #777;
+}
+#article-footer-icons a:hover {
+	text-decoration: none;
+	color: #333;
+}
+#article-footer-icons .fa-heart-o {
+	color: #02b875;
+}
 
 
 
