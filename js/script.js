@@ -47,5 +47,17 @@
 		prev = scrollTop;
 	});
 
+	// $(function(){
+	// 	$(window).scroll(function(){
+	// 		var Top = $('.article-section').height() + $('.top-head').height() + $('#author').height() - $(this).scrollTop();
+	// 		if($(this).scrollTop()>=Top){
+	// 			// $('#sidebar').addClass('fixed-sidebar');
+	// 	$('footer').toggleClass('hide-footer', scrollTop > prev);
+	// 		} else {
+	// 			alert("alo");
+	// 			// $('#sidebar').removeClass('fixed-sidebar');
+	// 		}
+	// 	});
+	// });
 
 });
